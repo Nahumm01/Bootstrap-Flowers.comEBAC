@@ -2,4 +2,21 @@ body {
   background-color: burlywood;
 }
 
-.container{}
+
+#nav .nav-item .nav-link.active{
+  background-color: #7209b7;
+  color: #FFF;
+}
+
+#nav .nav-item .nav-link:hover{
+  color: #7209b7;
+}
+
+.navbar-brand{
+  border-bottom: 3px solid #7209b7;
+}
+
+.text-colored{
+  color:#7209b7 ;
+}
+
