@@ -1,5 +1,6 @@
 body {
   background-color: burlywood;
+  font-family: 'Montserrat', sans-serif;
 }
 
 #nav .nav-item .nav-link.active{
@@ -15,7 +16,22 @@ body {
   border-bottom: 3px solid #7209b7;
 }
 
+#carousel{
+  background-color: #b185db;
+}
+
 .text-colored{
   color:#7209b7 ;
 }
 
+.carousel-inner{
+  max-height: 60vh;
+}
+
+#about{
+  background-color:#dec9e9 ;
+}
+
+.about-colored{
+  font-family: 'Pacifico', cursive;
+}
