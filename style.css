@@ -1,6 +1,7 @@
 body {
   background-color: burlywood;
   font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden;
 }
 
 #nav .nav-item .nav-link.active{
