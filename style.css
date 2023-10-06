@@ -1,38 +1,42 @@
 body {
   background-color: burlywood;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   overflow-x: hidden;
 }
 
-#nav .nav-item .nav-link.active{
+#nav .nav-item .nav-link.active {
   background-color: #7209b7;
-  color: #FFF;
+  color: #fff;
 }
 
-#nav .nav-item .nav-link:hover{
+#nav .nav-item .nav-link:hover {
   color: #7209b7;
 }
 
-.navbar-brand{
+.navbar-brand {
   border-bottom: 3px solid #7209b7;
 }
 
-#carousel{
+#carousel {
   background-color: #b185db;
 }
 
-.text-colored{
-  color:#7209b7 ;
+.text-colored {
+  color: #7209b7;
 }
 
-.carousel-inner{
+.carousel-inner {
   max-height: 60vh;
 }
 
-#about{
-  background-color:#dec9e9 ;
+#about {
+  background-color: #dec9e9;
 }
 
-.about-colored{
-  font-family: 'Pacifico', cursive;
+.about-colored {
+  font-family: "Pacifico", cursive;
+}
+
+#store {
+  background-color: #b185db;
 }
