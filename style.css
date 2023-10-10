@@ -1,5 +1,4 @@
 body {
-  background-color: burlywood;
   font-family: "Montserrat", sans-serif;
   overflow-x: hidden;
 }
@@ -29,7 +28,7 @@ body {
   max-height: 60vh;
 }
 
-#about {
+#sobre {
   background-color: #dec9e9;
 }
 
@@ -37,19 +36,19 @@ body {
   font-family: "Pacifico", cursive;
 }
 
-#event {
+#momentos {
   background-color: #b185db;
 }
 
-#store {
+#flores {
   background-color: #dec9e9;
 }
 
-#presente {
+#presentes {
   background-color: #b185db;
 }
 
-#store .btn-tab:hover {
+#flores .btn-tab:hover {
   color: #7209b7;
 }
 
@@ -58,7 +57,7 @@ body {
   color: #fff;
 }
 
-#store .btn-tab.active,
+#flores .btn-tab.active,
 .btn-store {
   background-color: #7209b7;
   color: #fff;
