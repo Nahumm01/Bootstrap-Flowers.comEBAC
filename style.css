@@ -3,21 +3,17 @@ body {
   overflow-x: hidden;
 }
 
+#nav .nav-item .nav-link:hover {
+  color: #7209b7;
+}
+
 #nav .nav-item .nav-link.active {
   background-color: #7209b7;
   color: #fff;
 }
 
-#nav .nav-item .nav-link:hover {
-  color: #7209b7;
-}
-
 .navbar-brand {
   border-bottom: 3px solid #7209b7;
-}
-
-#carousel {
-  background-color: #b185db;
 }
 
 .text-colored {
@@ -28,7 +24,9 @@ body {
   max-height: 60vh;
 }
 
-#sobre {
+#sobre,
+#flores,
+#contato {
   background-color: #dec9e9;
 }
 
@@ -36,29 +34,38 @@ body {
   font-family: "Pacifico", cursive;
 }
 
-#momentos {
-  background-color: #b185db;
-}
-
-#flores {
-  background-color: #dec9e9;
-}
-
-#presentes {
-  background-color: #b185db;
-}
-
 #flores .btn-tab:hover {
   color: #7209b7;
 }
 
-.btn-store:hover {
+.btn-store:hover,
+.btn-form:hover {
   background-color: #7209b7;
   color: #fff;
 }
 
 #flores .btn-tab.active,
-.btn-store {
+.btn-store,
+.btn-form {
   background-color: #7209b7;
   color: #fff;
+}
+
+.social-links li {
+  list-style: none;
+  display: inline;
+}
+
+.social-links li a {
+  text-decoration: none;
+}
+
+.contact-title,
+.social-title {
+  border-bottom: 1px solid #7209b7;
+  width: 50%;
+}
+
+.social-title {
+  margin: 0 auto;
 }
