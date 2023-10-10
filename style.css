@@ -41,10 +41,25 @@ body {
   background-color: #b185db;
 }
 
-#store{
+#store {
   background-color: #dec9e9;
 }
 
-#presente{
+#presente {
   background-color: #b185db;
+}
+
+#store .btn-tab:hover {
+  color: #7209b7;
+}
+
+.btn-store:hover {
+  background-color: #7209b7;
+  color: #fff;
+}
+
+#store .btn-tab.active,
+.btn-store {
+  background-color: #7209b7;
+  color: #fff;
 }
