@@ -86,3 +86,10 @@ body {
   margin-top: 10px;
 }
 
+#nome-error,
+#email-error,
+#tel-error,
+#msg-error {
+  color: #7209b7;
+  padding: 6px;
+}
