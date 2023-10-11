@@ -19,9 +19,6 @@ $(document).ready(function(){
           mensagem: {
             required: true,
           },
-          veiculoInteresse: {
-            required: false,
-          },
         },
         messages: {
           nome: "Campo Obrigatório",
