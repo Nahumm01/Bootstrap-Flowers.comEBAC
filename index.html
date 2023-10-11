@@ -29,7 +29,7 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header class="navbar navbar-expand-md fixed-top bg-body-tertiary mt-4">
+    <header class="navbar navbar-expand-lg fixed-top bg-body-tertiary mt-2">
       <div class="container">
         <h2 class="navbar-brand fs-2">
           <i class="bi bi-flower1 text-colored"></i>
@@ -87,7 +87,7 @@
       data-bs-smooth-scroll="true"
     >
     <section id="carousel">
-      <div class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel slide" data-bs-ride="carousel" id="carouselID">
           <div class="carousel-inner">
             <div class="carousel-item active">
               <img
@@ -117,6 +117,45 @@
                 class=""
               />
             </div>
+          </div>
+          <button
+            type="button"
+            class="carousel-control-prev"
+            data-bs-target="#carouselID"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon"> </span>
+          </button>
+          <button
+            type="button"
+            class="carousel-control-next"
+            data-bs-target="#carouselID"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon"> </span>
+          </button>
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselID"
+              class="active"
+              data-bs-slide-to="0"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselID"
+              data-bs-slide-to="1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselID"
+              data-bs-slide-to="2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselID"
+              data-bs-slide-to="3"
+            ></button>
           </div>
       </div>
     </section>
@@ -250,7 +289,7 @@
             <nav class="nav nav-pills flex-column">
               <button
                 type="button"
-                class="text-start nav-link text-colored btn-tab active"
+                class="nav-link text-colored btn-tab active"
                 data-bs-toggle="tab"
                 data-bs-target="#violeta"
               >
@@ -258,7 +297,7 @@
               </button>
               <button
                 type="button"
-                class="text-start nav-link text-colored btn-tab"
+                class="nav-link text-colored btn-tab"
                 data-bs-toggle="tab"
                 data-bs-target="#tulipa"
               >
@@ -266,7 +305,7 @@
               </button>
               <button
                 type="button"
-                class="text-start nav-link text-colored btn-tab"
+                class="nav-link text-colored btn-tab"
                 data-bs-toggle="tab"
                 data-bs-target="#orquidea"
               >
@@ -429,7 +468,7 @@
           </h2>
         </div>
         <div class="row">
-          <div class="col-md-3">
+          <div class="col-md-3 mb-3">
             <div class="card text-center h-100 ">
               <img
                 class="img-fluid rounded"
@@ -450,7 +489,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-3">
+          <div class="col-md-3 mb-3">
             <div class="card text-center h-100">
               <img
                 class="img-fluid rounded"
@@ -472,7 +511,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-3">
+          <div class="col-md-3 mb-3">
             <div class="card text-center h-100">
               <img
                 class="img-fluid rounded"
@@ -495,7 +534,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-3">
+          <div class="col-md-3 mb-3">
             <div class="card text-center h-100">
               <img
                 class="img-fluid rounded"
@@ -553,7 +592,7 @@
                 />
               </div>
               <div class="mb-3">
-                <label for="tel" class="form-label text-colored fw-bold"
+                <label for="tel" class="form-label text-colored fw-bold "
                   >Seu telefone (Opcional)</label
                 >
                 <input type="tel" name="tel" id="tel" class="form-control" />
@@ -569,13 +608,13 @@
                   required
                   placeholder="Fale com a gente!"
                 ></textarea>
-                <button type="submit" class="btn fw-bold mt-3 d-block btn-form">
+                <button type="submit" class="btn fw-bold mt-3  btn-form">
                   Enviar
                 </button>
               </div>
             </form>
           </div>
-          <div class="col-md-5 ms-5">
+          <div class="col-md-5 " id="social-way">
             <div class="row text-center">
               <h3 class="section-title fs-4 text-colored about-colored social-title p-1 mt-3">
                 <i class="bi bi-hand-thumbs-up-fill"></i>
